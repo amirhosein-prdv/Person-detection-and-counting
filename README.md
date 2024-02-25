@@ -65,8 +65,10 @@ personDetection(video_path_input, video_path_output, detector, polygon=polygon, 
 ### YOLOv3 (You Only Look Once version 3)
 
 - **Architecture**: YOLOv3 architecture consists of a CNN backbone, typically based on Darknet, followed by detection layers that predict bounding boxes and class probabilities.
-
-![alt text](image.png)
+- 
+<p align="center">
+   <img src="yolov3_arch.png" width="500" height="300">
+</p>
 
 - **Advantages**:
   - Real-time performance suitable for video processing.
@@ -79,8 +81,10 @@ personDetection(video_path_input, video_path_output, detector, polygon=polygon, 
 ### RetinaNet
 
 - **Architecture**: RetinaNet architecture incorporates a feature pyramid network (FPN) to extract multi-scale features and separate classification and regression subnets for predicting objectness scores and bounding box offsets.
-
-![alt text](image-1.png)
+- 
+<p align="center">
+   <img src="retina_arch.png" width="500" height="300">
+</p>
 
 - **Advantages**:
   - High accuracy, especially in scenarios with class imbalance.
