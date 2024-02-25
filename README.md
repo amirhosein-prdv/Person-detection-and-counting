@@ -98,11 +98,6 @@ personDetection(video_path_input, video_path_output, detector, polygon=polygon, 
 
 The choice between YOLOv3 and RetinaNet depends on factors such as speed requirements, accuracy demands, and the characteristics of the detection task. YOLOv3 offers real-time performance and simplicity, while RetinaNet provides higher accuracy and robustness to class imbalance and small objects.
 
-### Conclusion
-
-The selection of YOLOv3 and RetinaNet for person detection in the project is based on their well-established performance, real-time capabilities, accuracy, and ease of use. These models offer a good balance between speed and accuracy, making them suitable for processing video footage and accurately detecting persons in various scenarios.
-
-
 
 ## References
 - ImageAI GitHub Repository: [https://github.com/OlafenwaMoses/ImageAI](https://github.com/OlafenwaMoses/ImageAI)
