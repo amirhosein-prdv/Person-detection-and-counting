@@ -94,6 +94,13 @@ personDetection(video_path_input, video_path_output, detector, polygon=polygon, 
   - Slower inference compared to YOLOv3 due to multi-stage architecture.
   - More complex to implement and train.
 
+## Results 
+count and detect person:
+![image](https://github.com/user-attachments/assets/93fdae21-c33a-4a0d-8d19-403897a6387f)
+
+Count and detect in specific zone:
+![image](https://github.com/user-attachments/assets/6270a949-d685-4c18-9cf3-f00b56631f04)
+
 ## Conclusion
 
 The choice between YOLOv3 and RetinaNet depends on factors such as speed requirements, accuracy demands, and the characteristics of the detection task. YOLOv3 offers real-time performance and simplicity, while RetinaNet provides higher accuracy and robustness to class imbalance and small objects.
